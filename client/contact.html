@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="assests/images/PortFolio.png" alt="Logo">
+        <img id="mode" src="assests/images/mode.png" alt="Dark/Light mode Icons">
+    </div>
+    <main>
+        <div class="personal-info animate-left delay-1">
+            <div class="personal-details">
+                <div class="self-image ">
+                    <img src="assests/images/self-image.png" alt="">
+                </div>
+                <div class="name slide-in-left">
+                    <h2> Vishal Deep </h2>
+                </div>
+                <div class="designation slide-in-left">
+                    <h3>Frontend Developer</h3>
+                </div>
+                <div class="social-icons">
+                    <a href=""><img src="assests/images/github.png" alt=""></a>
+                    <a href=""><img src="assests/images/instagram.png" alt=""></a>
+                    <a href=""><img src="assests/images/twitter.png" alt=""></a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <div class="icon-box">
+                            <img src="assests/images/smartphone_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="Phone">
+                        </div>
+                        <span>+91 9015001958</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box">
+                            <img src="assests/images/mail_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24 (1).png" alt="Email">
+                        </div>
+                        <span>vishaldeep0106@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box">
+                            <img src="assests/images/location_on_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"
+                                alt="Location">
+                        </div>
+                        <span>Palampur, Himachal Pradesh</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box">
+                            <img src="assests/images/celebration_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="DOB">
+                        </div>
+                        <span>12, NOV. 2003</span>
+                    </div>
+                </div>
+                <div class="resume-button">
+                    <a href="files/Vishal Resume.pdf" download> Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section HTML Start -->
+        <div class="hero-section fade-in animate-bottom delay-2">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="fields-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="fields-item">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div class="fields-item">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="8" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <p id="responseMessage"></p>
+            </form>
+
+        </div>
+        <div class="nav-container animate-right delay-3">
+            <div class="container-links">
+                <img src="assests/images/person_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <a href="index.html">About</a>
+            </div>
+            <div class="container-links">
+                <img src="assests/images/laptop_chromebook_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <a href="experience.html">Experiance</a>
+            </div>
+            <div class="container-links">
+                <img src="assests/images/person_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <a href="projects.html">Projects</a>
+            </div>
+            <div class="container-links">
+                <img src="assests/images/person_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <a href="skills.html">Skills</a>
+            </div>
+            <div class="container-links">
+                <img src="assests/images/person_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

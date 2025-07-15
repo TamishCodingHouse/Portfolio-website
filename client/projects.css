@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Huninn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffe492d2;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#mode {
+    height: 3rem;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+/* Personal information CSS start */
+
+.personal-info {
+    background: rgb(255, 248, 235);
+    height: 40rem;
+    width: 23%;
+    border: 2px solid #fffb00;
+    padding: 3.5rem;
+    border-radius: 15px;
+    margin-top: 5.5rem;
+}
+
+.personal-details {
+    margin-top: 5rem;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.designation {
+    margin-top: 15px;
+    height: 25px;
+    width: 12rem;
+    background-color: rgb(255, 253, 117);
+    margin-left: 20px;
+}
+
+.designation h3 {
+    width: 20rem;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.social-icons {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    margin-right: 15px;
+}
+
+.contact-card {
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.icon-box {
+    width: 30px;
+    height: 32px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.icon-box img {
+    width: 18px;
+    height: 18px;
+}
+
+.contact-item span {
+    font-size: 11.5px;
+    color: #1f1f1f;
+}
+
+.self-image img {
+    position: absolute;
+    bottom: 2rem;
+    margin-bottom: 30rem;
+}
+
+.resume-button{
+    margin-top: 20px;
+}
+
+
+.resume-button a {
+    display: block;
+    width: 10rem;
+    padding: 10px;
+    background: rgb(255, 252, 73);
+    margin: 20px 0px 0px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    transition: transform ease 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.resume-button a:hover {
+    background: rgba(255, 251, 37, 0.897);
+    transform: scale(1.05);
+}
+
+/* Personal-info css end  */
+
+/* Hero-section CSS Start */
+
+.hero-section {
+    height: 55rem;
+    width: 50%;
+    border: 2px solid yellow;
+    background: white;
+    padding: 2rem;
+
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid rgb(255, 255, 86);
+}
+
+.project-item a {
+    display: block;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+
+
+.project-item:hover {
+    transform: scale(1.04);
+}
+
+.project-item:hover project-hover-text {
+    opacity: 1;
+}
+
+.project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* 👈 this will perfectly fit image in box */
+    display: block;
+}
+
+.project-item s {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+
+/* navbar CSS Start */
+.nav-container {
+    height: 10%;
+    width: 7%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.container-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: #ffeaaad2;
+    width: 66px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #ffce3cd2;
+    border-radius: 10px;
+}
+
+.container-links img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.container-links a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: x-small;
+    color: black;
+}
+
+.container-links:hover {
+    background-color: #ffda6c;
+}
+
+
+/* animation Start */
+/* ==== Animation Keyframes ==== */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ==== Animation Classes ==== */
+.animate-left {
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+.animate-bottom {
+    animation: slideInBottom 1s ease-out forwards;
+}
+
+.animate-right {
+    animation: slideInRight 1s ease-out forwards;
+}
+
+/* ==== Apply Delays for smoother entrance ==== */
+.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.delay-2 {
+    animation-delay: 0.5s;
+}
+
+.delay-3 {
+    animation-delay: 0.5s;
+}
+
+/* ==== Responsive: basic adjustments ==== */
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personal-info,
+    .hero-section,
+    .nav-container {
+        width: 90%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: space-around;
+    }
+
+    .container-links {
+        margin: 10px;
+    }
+}

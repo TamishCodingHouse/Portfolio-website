@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,500;0,600;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Huninn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffe187d2;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#mode {
+    height: 3rem;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+/* Personal information CSS start */
+
+.personal-info {
+    background: rgb(255, 248, 235);
+    height: 40rem;
+    width: 23%;
+    border: 2px solid #fffb00;
+    padding: 3.5rem;
+    border-radius: 15px;
+    margin-top: 5.5rem;
+}
+
+.personal-details {
+    margin-top: 5rem;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.designation {
+    margin-top: 15px;
+    height: 25px;
+    width: 12rem;
+    background-color: rgb(255, 253, 117);
+    margin-left: 20px;
+}
+
+.designation h3 {
+    width: 20rem;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.social-icons {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    margin-right: 15px;
+}
+
+.contact-card {
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.icon-box {
+    width: 30px;
+    height: 32px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.icon-box img {
+    width: 18px;
+    height: 18px;
+}
+
+.contact-item span {
+    font-size: 11.5px;
+    color: #1f1f1f;
+}
+
+.self-image img{
+    position: absolute;
+    bottom: 2rem;
+    margin-bottom: 30rem;
+}
+
+
+.resume-button{
+    margin-top: 20px;
+}
+
+
+.resume-button a {
+    display: block;
+    width: 10rem;
+    padding: 10px;
+    background: rgb(255, 252, 73);
+    margin: 20px 0px 0px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    transition: transform ease 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.resume-button a:hover {
+    background: rgba(255, 251, 37, 0.897);
+    transform: scale(1.05);
+}
+
+/* Personal-info css end  */
+
+/* Hero Section CSS Start */
+
+.hero-section {
+    height: 40rem;
+    width: 50%;
+    border: 2px solid yellow;
+    background: white;
+    padding: 3.5rem;
+    border-radius: 10px;
+}
+
+.education-container {
+    display: flex;
+}
+
+p, b{
+    font-weight: 900;
+}
+
+
+.graducation-container {
+    height: 150px;
+    width: 50%;
+    border: 2px solid rgb(255, 237, 73);
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    line-height: 22px;
+
+}
+
+.school-container {
+    height: 150px;
+    width: 50%;
+    border: 2px solid rgb(255, 237, 73);
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    line-height: 22px;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.skills-container {
+    height: 120px;
+    width: 100%;
+    border: 2px solid rgb(255, 237, 73);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container img {
+    height: 70px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.skills-certificate {
+    height: 110px;
+    width: 100%;
+    border: 2px solid rgb(255, 237, 73);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-certificate img {
+    height: 82px;
+    width: 100px;
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.skills-description button {
+    padding: 10px;
+    color: black;
+    background-color: #ffda6c;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 237, 73);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.skills-description button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.project-link a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+
+/* navbar CSS Start */
+.nav-container {
+    margin-top: 5rem;
+    height: 10%;
+    width: 8%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 226, 62);
+}
+
+.container-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: #ffeaaad2;
+    width: 66px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #ffce3cd2;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.container-links img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.container-links a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: x-small;
+    color: black;
+}
+
+.container-links:hover {
+    background-color: #ffda6c;
+    transform: scale(1.05);
+}
+
+
+/* animation Start */
+/* ==== Animation Keyframes ==== */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ==== Animation Classes ==== */
+.animate-left {
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+.animate-bottom {
+    animation: slideInBottom 1s ease-out forwards;
+}
+
+.animate-right {
+    animation: slideInRight 1s ease-out forwards;
+}
+
+/* ==== Apply Delays for smoother entrance ==== */
+.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.delay-2 {
+    animation-delay: 0.5s;
+}
+
+.delay-3 {
+    animation-delay: 0.5s;
+}
+
+
+
+/* ==== Responsive: basic adjustments ==== */
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personal-info,
+    .hero-section,
+    .nav-container {
+        width: 90%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .container-links {
+        margin: 10px;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: space-around;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .graducation-container {
+        width: 100%;
+        margin: 18px;
+        height: 50%;
+    }
+
+    .school-container {
+        width: 100%;
+        margin: 18px;
+        height: 50%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .skills-container,
+    .skills-certificate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        height: 50%;
+    }
+
+
+    .skills-container img,
+    .skills-certificate img {
+        max-width: 300px;
+        height: auto;
+        object-fit: contain;
+        margin-left: 10%;
+    }
+
+    .skills-description {
+        padding: 0 10px;
+    }
+
+    .skills-description button {
+        margin-top: 10px;
+    }
+
+}
