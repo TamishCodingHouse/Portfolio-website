@@ -1,5 +1,5 @@
 function toggleTheme() {
-    document.body.classList.toggle("dark-mode");
+    alert("Dark Mode feature is currently unavailable ")
 }
 
 
