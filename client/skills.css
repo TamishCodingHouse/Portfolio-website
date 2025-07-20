@@ -155,7 +155,7 @@ main {
 /* Hero Section CSS Start */
 
 .hero-section {
-    height: 40rem;
+    height: 45rem;
     width: 55%;
     border: 2px solid yellow;
     background: white;
@@ -178,6 +178,7 @@ main {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 20px;
+    transition: transform 0.5s ease;
 
 }
 
