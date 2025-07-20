@@ -154,7 +154,7 @@ main {
 /* Hero-section CSS Start */
 
 .hero-section {
-    height: 55rem;
+    height: 80rem;
     width: 50%;
     border: 2px solid yellow;
     background: white;
@@ -210,6 +210,33 @@ main {
     text-align: center;
 }
 
+.project-item h3{
+    text-align: center;
+}
+
+.social-links{
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: rgb(255, 252, 73);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.social-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.social-links:hover{
+    transform: scale(1.04);
+}
+
 
 /* navbar CSS Start */
 .nav-container {
@@ -222,6 +249,11 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    transition: transform 0.3s ease;
+}
+
+.container-links:hover{
+    transform: scale(1.07);
 }
 
 .container-links {
@@ -238,6 +270,7 @@ main {
     padding: 10px;
     border: 2px solid #ffce3cd2;
     border-radius: 10px;
+    transition: transform 0.5s ease;
 }
 
 .container-links img {

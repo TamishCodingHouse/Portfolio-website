@@ -231,6 +231,10 @@ main {
     transition: transform 0.3s ease;
 }
 
+.container-links:hover{
+    transform: scale(1.07);
+}
+
 .container-links img {
     height: 30px;
     width: 30px;
